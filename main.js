@@ -1,3 +1,5 @@
+console.log("Everything is in control.")
+
 post = {
   officeImg: "images/" + "office.jpg",
   paperstacksImg: "images/" + "paperstacks.jpg",
