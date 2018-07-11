@@ -1,9 +1,9 @@
 post = {
   officeImg: "images/" + "office.jpg",
-  paperstacksImg: "images/" + "paperstacks.jpg",
-  paperstacks2Img: "images/" + "paperstacks2.jpg",
-  paperstacks3Img: "images/" + "paperstacks.jpg",
-  paperstacks4Img: "images/" + "paperstacks2.jpg",
+  deathnoteImg: "images/" + "deathnote.jpg",
+  deathnote2Img: "images/" + "deathnote.jpg",
+  deathnote3Img: "images/" + "deathnote.jpg",
+  deathnote4Img: "images/" + "deathnote.jpg",
   salesTeamImg: "images/" + "salesTeam.jpg",
   warehouseImg: "images/" + "warehouse.jpg",
   warehouseText: "Here at Thunder Whiffin' we pride ourselves in being the #1 paper distributer in all of Idaho. We employee over 40,000 people.  We are the byproduct of great capitalism. Here at Thunder Whiffin' we pride ourselves in being the #1 paper distributer in all of Idaho. We employee over 40,000 people.  We are the byproduct of great capitalism.",
@@ -16,8 +16,8 @@ post = {
 var a = document.getElementById("officeImg");
 a.src = post.officeImg;
 
-var b = document.getElementById("paperstacksImg");
-b.src = post.paperstacksImg;
+var b = document.getElementById("deathnoteImg");
+b.src = post.deathnoteImg;
 
 var c = document.getElementById("salesTeamImg");
 c.src = post.salesTeamImg;
@@ -34,14 +34,14 @@ f.innerHTML = post.warehouseText;
 var g = document.getElementById("warehouseImg");
 g.src = post.warehouseImg;
 
-var h = document.getElementById("paperstacks2Img");
-h.src = post.paperstacks2Img;
+var h = document.getElementById("deathnote2Img");
+h.src = post.deathnote2Img;
 
-var k = document.getElementById("paperstacks3Img");
-k.src = post.paperstacks3Img;
+var k = document.getElementById("deathnote3Img");
+k.src = post.deathnote3Img;
 
-var l = document.getElementById("paperstacks4Img");
-l.src = post.paperstacks4Img;
+var l = document.getElementById("deathnote4Img");
+l.src = post.deathnote4Img;
 
 var i = document.getElementById("paperstacks2Text");
 i.innerHTML = post.paperstacks2Text;
@@ -50,16 +50,16 @@ var j = document.getElementById("paperstacks3Text");
 j.innerHTML = post.paperstacks3Text;
 
 function showText() {
-  showText = document.getElementById("paperstacksImg");
+  showText = document.getElementById("deathnoteImg");
   showText.classList.add("revealed");
   showText.classList.remove("extraHidden");
-  showText = document.getElementById("paperstacks2Img");
+  showText = document.getElementById("deathnote2Img");
   showText.classList.add("revealed");
   showText.classList.remove("extraHidden");
-  showText = document.getElementById("paperstacks3Img");
+  showText = document.getElementById("deathnote3Img");
   showText.classList.add("revealed");
   showText.classList.remove("extraHidden");
-  showText = document.getElementById("paperstacks4Img");
+  showText = document.getElementById("deathnote4Img");
   showText.classList.add("revealed");
   showText.classList.remove("extraHidden");
   showText = document.getElementById("paperstacksText");
@@ -85,7 +85,7 @@ window.addEventListener("scroll", function() {
     // section2.classList.add("hidden");
     // section2.classList.remove("revealed");
   }
-  if (scrollPos > 950) {
+  if (scrollPos > 900) {
     section2 = document.getElementById("sectiontwo");
     section2.classList.add("revealed");
     section2.classList.remove("hidden");
