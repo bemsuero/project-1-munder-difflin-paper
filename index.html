@@ -4,10 +4,21 @@
 <head>
   <link rel="stylesheet" type="text/css" href="main.css">
   <meta charset="utf-8">
+  <!-- Audio (Works because audio was put here instead of resource folder. If you needed to do that use absolute path) Works on firefox-->
+    <!-- <audio controls autoplay hidden>
+     <source src="thunderhorse.mp4"
+             type='audio/mp4'> -->
+     <!-- The next two lines are only executed if the browser doesn't support MP4 files -->
+     <!-- <source src="thunderhorse.mp4"
+             type='audio/ogg; codecs=vorbis'> -->
+     <!-- The next line will only be executed if the browser doesn't support the <audio> tag -->
+     <p>Your user agent does not support the HTML5 Audio element.</p>
+    </audio>
   <title>Thunder Whiffin' Paper</title>
 </head>
 
 <body>
+
   <div id="nav">
     <h1>Thunder Whiffin' Paper</h1>
     <a href="#sectionone">About Us</a>
@@ -16,25 +27,34 @@
     <a href="#">Sign Up</a>
     <a href="#">Sign In</a>
   </div>
+  <div class="background"></div>
   <div class="hidden" id="sectionone">
     <img id="warehouseImg">
     <p id="warehouseText"></p>
   </div>
+<div class="background"></div>
   <div class="hidden" id="sectiontwo">
-    <img id="paperstacksImg">
-    <p id="paperstacksText"></p>
+    <img class="extraHidden" id="paperstacksImg">
+    <img class="extraHidden" id="paperstacks2Img">
+    <img class="extraHidden" id="paperstacks3Img">
+    <img class="extraHidden" id="paperstacks4Img">
+    <p class="extraHidden" id="paperstacksText"></p>
+    <p class="extraHidden" id="paperstacks2Text"></p>
+    <p class="extraHidden" id="paperstacks3Text"></p>
+    <button id="showText" onclick="showText()">Start Paper Trail</button>
   </div>
+  <div class="background"></div>
   <div class="hidden" id="sectionthree">
     <img id="officeImg">
     <p id="officeText"></p>
   </div>
   <div id="infoLinks">
-    <a>Thunder Whiffin' Paper <br> 123 Forest Ave <br> Frontend, ID </a>
+    Thunder Whiffin' Paper <br> 123 Forest Ave <br> Frontend, ID
     <a href="#">FAQs</a>
     <a href="#">SiteMap</a>
     <a href="#">Privacy</a>
     <a href="#">API</a>
-    <img id="sales-team">
+    <img id="salesTeamImg" onclick="popUp()">
   </div>
 </body>
 <script src="main.js"></script>
