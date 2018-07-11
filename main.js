@@ -77,7 +77,7 @@ function showText() {
 var scrollPos = 0;
 window.addEventListener("scroll", function() {
   scrollPos = window.scrollY;
-  if (scrollPos > 80) {
+  if (scrollPos > 150) {
     section1 = document.getElementById("sectionone");
     section1.classList.add("revealed");
     section1.classList.remove("hidden");
@@ -85,7 +85,7 @@ window.addEventListener("scroll", function() {
     // section2.classList.add("hidden");
     // section2.classList.remove("revealed");
   }
-  if (scrollPos > 880) {
+  if (scrollPos > 950) {
     section2 = document.getElementById("sectiontwo");
     section2.classList.add("revealed");
     section2.classList.remove("hidden");
@@ -96,7 +96,7 @@ window.addEventListener("scroll", function() {
     // section3.classList.add("hidden");
     // section3.classList.remove("revealed");
   }
-  if (scrollPos > 1680) {
+  if (scrollPos > 1550) {
     section3 = document.getElementById("sectionthree");
     section3.classList.add("revealed");
     section3.classList.remove("hidden");
