@@ -14,11 +14,12 @@ html {
   font-family: monospace;
   font-size: 150%;
   margin: 0;
+  color: white;
 }
 
 .background {
   height: 100px;
-  background-image: url("images/background.jpg");
+  background-image: url("images/firebackground.jpg");
   background-attachment: fixed;
      background-position: center;
      background-repeat: repeat;
@@ -29,8 +30,8 @@ html {
   display: grid;
   grid-template-columns: 15% 15% 15% 15% 15% 15;
   grid-template-rows: 33% 33% 33%;
-  background-color: #009432;
-  color: black;
+  background-color: #c23616;
+  color: white;
   height: 150px;
   align-items: flex-end;
   grid-gap: 10px;
@@ -39,9 +40,9 @@ html {
 }
 
 #nav a {
-  color: black;
+  color: white;
   text-decoration: none;
-  background-color: #c8d6e5;
+  background-color: #e1b12c;
   margin: 0;
   border-radius: 2px;
   text-align: center;
@@ -78,8 +79,8 @@ html {
 }
 
 h1 {
-  background-color: #009432;
-  color: black;
+  background-color: #c23616;
+  color: white;
   text-align: left;
   margin: 0 auto;
   padding-left: 25px;
@@ -92,7 +93,7 @@ img {
 
 #sectionone {
 height: 600px;
-background-color: #FFC312;
+background-color: #2f3640;
 display: grid;
 grid-template-columns: 50% 50%;
 }
@@ -111,7 +112,7 @@ padding-top: 35%;
 
 #sectiontwo {
 height: 600px;
-background-color: white;
+background-color: black;
  display: grid;
  grid-template-columns: 20% 20% 20% 20% 20%;
 /* grid-template-rows: ; */
@@ -176,7 +177,7 @@ background-color: white;
 
 #sectionthree {
 height: 600px;
-background-color: #FFC312;
+background-color: #2f3640;
 display: grid;
 }
 
@@ -197,17 +198,17 @@ padding-top: 30%;
   display: grid;
   grid-template-columns: 15% 15% 15% 15% 15% 15;
   grid-template-rows: 33% 33% 33%;
-  background-color: #009432;
-  color: black;
+  background-color: #c23616;
+  color: white;
   height: 150px;
   align-items: Start;
   grid-gap: 10px;
   padding: 1%;
 }
 #infoLinks a {
-  color: black;
+  color: white;
   text-decoration: none;
-  background-color: #c8d6e5;
+  background-color: #e1b12c;
   margin: 0;
   border-radius: 2px;
   text-align: center;
@@ -228,5 +229,5 @@ padding-top: 30%;
   grid-row: 1 / 2;
   max-width: 300px;
   max-height: 200px;
-  background-color: #009432;
+  background-color: #c23616;
 }
