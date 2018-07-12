@@ -6,11 +6,11 @@ post = {
   deathnote4Img: "images/" + "deathnote.jpg",
   salesTeamImg: "images/" + "salesTeam.jpg",
   warehouseImg: "images/" + "warehouse.jpg",
-  warehouseText: "Here at Thunder Whiffin' we pride ourselves in being the #1 paper distributer in all of Idaho. We employee over 40,000 people.  We are the byproduct of great capitalism. Here at Thunder Whiffin' we pride ourselves in being the #1 paper distributer in all of Idaho. We employee over 40,000 people.  We are the byproduct of great capitalism.",
+  warehouseText: "Here at Thunder Whiffin' we pride ourselves in being the #1 paper distributer in all of Iowa. We employee over 40,000 people.  We are the byproduct of great capitalism. We sell paper for death metal albums to be printed on. Trees DIE FOR OUR PAPER. But we recycle so that's ok. From the great state that brought us Slipknot, we bring you THUNDER WHIFFIN' PAPER.",
   paperstacksText: "Our paper is all made from recyclable material.",
   paperstacks2Text: "All Thunder Whiffin' Paper is fireproof, water resistent and smells like cherries.",
   paperstacks3Text: "Other scents avaiable for those allergic to cherry.",
-  officeText: "Our sales team is here to assist you at every step of our sales process.",
+  officeText: "Our sales team is here to assist you at every step of our sales process. Order now. YELL YOUR ORDER FOR 15% OFF!",
 }
 
 var a = document.getElementById("officeImg");
@@ -108,3 +108,27 @@ window.addEventListener("scroll", function() {
     // section4.classList.remove("revealed");
   }
 });
+
+function smoothRide() {
+  window.scrollBy({
+  top: 200, // could be negative value
+  left: 0,
+  behavior: 'smooth'
+});
+}
+
+function smoothRide2() {
+  window.scrollBy({
+  top: 900, // could be negative value
+  left: 0,
+  behavior: 'smooth'
+});
+}
+
+function smoothRide3() {
+  window.scrollBy({
+  top: 1600, // could be negative value
+  left: 0,
+  behavior: 'smooth'
+});
+}
