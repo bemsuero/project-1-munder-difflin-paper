@@ -110,3 +110,27 @@ window.addEventListener("scroll", function() {
     // section4.classList.remove("revealed");
   }
 });
+
+function smoothRide() {
+  window.scrollBy({
+  top: 200, // could be negative value
+  left: 0,
+  behavior: 'smooth'
+});
+}
+
+function smoothRide2() {
+  window.scrollBy({
+  top: 900, // could be negative value
+  left: 0,
+  behavior: 'smooth'
+});
+}
+
+function smoothRide3() {
+  window.scrollBy({
+  top: 1600, // could be negative value
+  left: 0,
+  behavior: 'smooth'
+});
+}
