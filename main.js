@@ -12,7 +12,8 @@ post = {
   paperstacksText: "Our paper is all made from recyclable material.",
   paperstacks2Text: "All Thunder Whiffin' Paper is fireproof, water resistent and smells like cherries.",
   paperstacks3Text: "Other scents avaiable for those allergic to cherry.",
-  officeText: "Take a look at out headquarters! Our sales team is here to assist you at every step of our sales process, from first contact to purchase. You have no worries now as you are in the caring hands of Thunder Whiffin'.",
+  officeText: "Take a look at out headquarters! Our sales team is here to assist you at every step of our sales process, from first contact to purchase. You have no worries now as you are in the caring hands of Thunder Whiffin' Now what are you waiting for? Sign up, sign in, and order some paper!",
+  newWarehouseText: "Offices at: Dingo, IA. Fastport, IA. Freelance, IA. Fairview, IA. Cornwall, IA. Coming soon to other locations."
 }
 
 var a = document.getElementById("officeImg");
@@ -74,6 +75,17 @@ function showText() {
   showText.classList.add("revealed");
   showText.classList.remove("extraHidden");
 };
+
+
+
+function changeText() {
+  var m = document.getElementById("warehouseText");
+  m.innerHTML = post.newWarehouseText;
+}
+
+function demo() {
+  alert("This is where your cart would pop up for mass purchase.")
+}
 
 
 var scrollPos = 0;
