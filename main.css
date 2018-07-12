@@ -14,7 +14,7 @@ html {
   font-family: monospace;
   font-size: 150%;
   margin: 0;
-  color: white;
+  color: #e3ebf7;
 }
 
 .background {
@@ -36,6 +36,8 @@ html {
   align-items: flex-end;
   grid-gap: 10px;
   padding: 1%;
+  background-image: url("images/fireheader.jpg");
+  background-size: cover;
 
 }
 
@@ -79,7 +81,6 @@ html {
 }
 
 h1 {
-  background-color: #c23616;
   color: white;
   text-align: left;
   margin: 0 auto;
@@ -96,6 +97,8 @@ height: 600px;
 background-color: #2f3640;
 display: grid;
 grid-template-columns: 50% 50%;
+background-image: url("images/metalbackground.jpg");
+background-size: cover;
 }
 
 #sectionone img {
@@ -109,6 +112,19 @@ padding-left: 1%;
 grid-column: 2;
 padding-top: 35%;
 }
+
+
+#sectionone button {
+grid-column: 1;
+grid-row: 2;
+max-width: 75px;
+max-height: 50px;
+margin-left: 40%;
+background-color: orange;
+font-weight: bolder;
+
+}
+
 
 #sectiontwo {
 height: 600px;
@@ -179,6 +195,8 @@ background-color: black;
 height: 600px;
 background-color: #2f3640;
 display: grid;
+background-image: url("images/metalbackground.jpg");
+background-size: cover;
 }
 
 #sectionthree img {
@@ -214,6 +232,8 @@ font-weight: bolder;
   align-items: Start;
   grid-gap: 10px;
   padding: 1%;
+  background-image: url("images/fireheader.jpg");
+  background-size: cover;
 }
 #infoLinks a {
   color: white;
@@ -222,6 +242,7 @@ font-weight: bolder;
   margin: 0;
   border-radius: 2px;
   text-align: center;
+
 }
 
 #infoLinks a:nth-child(4) {
