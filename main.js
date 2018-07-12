@@ -8,11 +8,11 @@ post = {
   paperstacks4Img: "images/" + "paperstacks2.jpg",
   salesTeamImg: "images/" + "salesTeam.jpg",
   warehouseImg: "images/" + "warehouse.jpg",
-  warehouseText: "Here at Thunder Whiffin' we pride ourselves in being the #1 paper distributer in all of Idaho. We employee over 40,000 people.  We are the byproduct of great capitalism. Here at Thunder Whiffin' we pride ourselves in being the #1 paper distributer in all of Idaho. We employee over 40,000 people.  We are the byproduct of great capitalism.",
+  warehouseText: "Here at Thunder Whiffin' we pride ourselves in being the #1 paper distributer in all of Idaho. We keep multiple warehouses in the greater Idaho area to ensure you get your paper in a timely manner. We do so with that tender Idaho care. We will soon be distrupting to adjacent states.",
   paperstacksText: "Our paper is all made from recyclable material.",
   paperstacks2Text: "All Thunder Whiffin' Paper is fireproof, water resistent and smells like cherries.",
   paperstacks3Text: "Other scents avaiable for those allergic to cherry.",
-  officeText: "Our sales team is here to assist you at every step of our sales process.",
+  officeText: "Take a look at out headquarters! Our sales team is here to assist you at every step of our sales process, from first contact to purchase. You have no worries now as you are in the caring hands of Thunder Whiffin'.",
 }
 
 var a = document.getElementById("officeImg");
@@ -87,7 +87,7 @@ window.addEventListener("scroll", function() {
     // section2.classList.add("hidden");
     // section2.classList.remove("revealed");
   }
-  if (scrollPos > 950) {
+  if (scrollPos > 900) {
     section2 = document.getElementById("sectiontwo");
     section2.classList.add("revealed");
     section2.classList.remove("hidden");
