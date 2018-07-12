@@ -129,7 +129,7 @@ function smoothRide() {
 
 function smoothRide2() {
   window.scrollBy({
-  top: 900, // could be negative value
+  top: 950, // could be negative value
   left: 0,
   behavior: 'smooth'
 });
