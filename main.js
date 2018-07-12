@@ -8,7 +8,7 @@ post = {
   paperstacks4Img: "images/" + "paperstacks2.jpg",
   salesTeamImg: "images/" + "salesTeam.jpg",
   warehouseImg: "images/" + "warehouse.jpg",
-  warehouseText: "Here at Thunder Whiffin' we pride ourselves in being the #1 paper distributer in all of Idaho. We keep multiple warehouses in the greater Idaho area to ensure you get your paper in a timely manner. We do so with that tender Idaho care. We will soon be distrupting to adjacent states.",
+  warehouseText: "Here at Thunder Whiffin' we pride ourselves in being the #1 paper distributer in all of Iowa. We keep multiple warehouses in the greater Iowa area to ensure you get your paper in a timely manner. We do so with that tender Iowa care. We will soon be distrupting to adjacent states.",
   paperstacksText: "Our paper is all made from recyclable material.",
   paperstacks2Text: "All Thunder Whiffin' Paper is fireproof, water resistent and smells like cherries.",
   paperstacks3Text: "Other scents avaiable for those allergic to cherry.",
