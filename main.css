@@ -45,6 +45,7 @@ html {
   border-radius: 2px;
   text-align: center;
   color: black;
+  font-size: 75%;
 }
 
 #nav h1:nth-child(0) {
@@ -82,7 +83,7 @@ h1 {
   margin: 0 auto;
   padding-left: 25px;
   padding-top: 10%;
-  font-size: 125%;
+  font-size: 150%;
 }
 
 img {
@@ -219,6 +220,7 @@ font-weight: bolder;
   border-radius: 2px;
   text-align: center;
   color: black;
+  font-size: 75%;
 }
 
 #infoLinks a:nth-child(4) {
@@ -237,4 +239,17 @@ font-weight: bolder;
   max-width: 300px;
   max-height: 200px;
   background-color: #009432;
+}
+footer {
+  text-align: center;
+  font-size: 75%;
+  background-color: black;
+  color: white;
+}
+
+footer button {
+  text-align: right;
+  background-color: red;
+  color: black;
+  border-color: orange;
 }

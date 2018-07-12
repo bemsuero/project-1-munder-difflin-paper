@@ -134,3 +134,7 @@ function smoothRide3() {
   behavior: 'smooth'
 });
 }
+
+// function switchTheme() {
+//   html.background-color = "red"
+// }
